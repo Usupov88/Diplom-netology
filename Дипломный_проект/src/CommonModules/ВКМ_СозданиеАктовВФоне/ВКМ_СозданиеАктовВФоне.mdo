@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ae47440-fdb7-4d3d-89c7-54a480e806ed">
+  <name>ВКМ_СозданиеАктовВФоне</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ создание актов в фоне</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ae6fc52-8ae3-4f8c-a99a-15eb09ea7252">
+  <producedTypes>
+    <selectionType typeId="02713430-cec7-4244-85f2-8bd4b6de08b5" valueTypeId="653e97bb-c136-4e28-a03a-722ddd8f71ca"/>
+    <listType typeId="329f03e0-9a4b-424b-981e-69c40d5fbd7d" valueTypeId="98417e00-d0d1-4394-8b95-6c6113e59253"/>
+    <managerType typeId="c41a42fd-f7c0-4e85-bfdf-2b8b79d36945" valueTypeId="d4345cb3-066f-4f40-a23f-bfb871439094"/>
+    <recordSetType typeId="af8ebc23-2248-4ec7-bd02-181d0ed327c1" valueTypeId="342226a1-e423-4869-930d-ca94d4702441"/>
+    <recordKeyType typeId="7887a72a-c98a-4c96-ba87-517ae9afe8e8" valueTypeId="9f24de18-b59b-49aa-8075-b0fbe94abfa4"/>
+    <recordType typeId="501ed924-5ff9-419f-b292-7512e674b71b" valueTypeId="12874679-feb5-4210-8de3-56778c8a09c5"/>
+    <recordManagerType typeId="ddb04dd0-9079-4c45-b17d-721cea2014a4" valueTypeId="97e86a51-bd33-429e-bfd5-65bf06054d7a"/>
+  </producedTypes>
+  <name>ВКМ_ОтпускСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отпуск сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="91851c8e-6327-4906-91d9-cebdd8b2ba7b">
+    <name>ВКМ_Начало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ff4bc58f-d2cf-45ce-9f6b-0af0994fc27c">
+    <name>ВКМ_Окончание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e8218d68-1c73-4645-a987-f0f5845c8d23">
+    <name>ВКМ_Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e14ef0f-7b01-4ea9-9779-0de96ebd0b58">
+  <producedTypes>
+    <objectType typeId="0f4db0c4-d1ce-49bf-95c7-8f75e4dd7b49" valueTypeId="0523244a-641a-44c7-9c37-f53d75f81e27"/>
+    <refType typeId="16ed0910-745d-4d8e-a1f0-cad204d62d8d" valueTypeId="d0e642ca-7352-4142-893c-1aada26f3d45"/>
+    <selectionType typeId="0cc06ffd-d307-4072-8922-d4833e5182a9" valueTypeId="0b1aa2eb-ea1f-4b77-ae1f-c1d3c926286a"/>
+    <listType typeId="38dfedca-de74-4009-8476-6c93a11c217c" valueTypeId="bb817fec-d16d-437a-ab15-646ff41fc25f"/>
+    <managerType typeId="a81b4bfa-44a1-4dd3-99ab-c371e6e2e7ee" valueTypeId="a42411ac-1b02-4a28-977d-f9b231d1195e"/>
+  </producedTypes>
+  <name>ВКМ_Уведомление_TG_Боту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление_TG_боту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВКМ_Уведомление_TG_Боту.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="44164c33-c8a2-4454-88be-6485b631c9fc">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fa787504-3d11-4ff2-b96a-21be5996dd15">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

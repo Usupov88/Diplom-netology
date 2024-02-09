@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style:Style xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:style="http://g5.1c.ru/v8/dt/style">
+  <items xsi:type="style:ColorStyleItem">
+    <name>ActivityColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>179</red>
+      <green>179</green>
+      <blue>179</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>AccentColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>51</red>
+      <green>102</green>
+      <blue>255</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>NavigationColor</name>
+    <color xsi:type="core:ColorDef">
+      <green>230</green>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>AuxiliaryNavigationColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>188</red>
+      <green>235</green>
+      <blue>188</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ImportantColor</name>
+    <color xsi:type="core:ColorDef">
+      <green>206</green>
+      <blue>206</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ПравоПросмотраФон</name>
+    <color xsi:type="core:ColorDef"/>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ПравоСозданияФон</name>
+    <color xsi:type="core:ColorDef">
+      <red>192</red>
+      <green>192</green>
+      <blue>192</blue>
+    </color>
+  </items>
+</style:Style>

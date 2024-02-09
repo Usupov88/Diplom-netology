@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c61126ee-286d-4904-933f-52c5b3997a76">
+  <producedTypes>
+    <selectionType typeId="a00fa1a1-4039-4785-ae10-161e4c688358" valueTypeId="9eb08eb3-9395-42fc-bd45-3a75df46bccf"/>
+    <listType typeId="6c73d744-c939-46da-82eb-aca2a69c4c28" valueTypeId="1961c213-ddfb-49ae-bae5-188327b69910"/>
+    <managerType typeId="7318d456-af5d-4dcd-a0d0-1cf6763d7f44" valueTypeId="2a638e34-e7dd-4d2c-89f9-f57161348c89"/>
+    <recordSetType typeId="c378b54e-1a05-4a91-b22d-cb689f517d0c" valueTypeId="14cb144a-7377-4695-bffd-e76893c60e08"/>
+    <recordKeyType typeId="f9c9fc53-96bd-4f0c-bba2-d4105f880cba" valueTypeId="dcb14856-d0eb-4ac6-9350-834eecf2e84b"/>
+    <recordType typeId="29deef50-8e1f-45eb-acce-5a775fa8d496" valueTypeId="9c8a4d44-4e66-4f20-8e6d-6c484b228f14"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>График отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f9c2f181-1a5b-4964-8794-119918fc9576">
+    <name>ВКМ_КоличествоДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="03334522-07c5-4972-864b-5c834946dcbd">
+    <name>ВКМ_Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="08664329-3b18-4cac-b126-763629b8130b">
+    <name>ВКМ_ВидРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид расчета</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
