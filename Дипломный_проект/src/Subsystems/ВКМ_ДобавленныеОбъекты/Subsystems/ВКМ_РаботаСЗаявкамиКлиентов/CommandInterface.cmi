@@ -5,6 +5,5 @@
     <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_РаботаСЗаявкамиКлиентов.Subsystem.Отчёты</subsystems>
     <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_РаботаСЗаявкамиКлиентов.Subsystem.Регистры</subsystems>
     <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_РаботаСЗаявкамиКлиентов.Subsystem.Справочники</subsystems>
-    <subsystems>b892c716-8b39-426d-bf19-b40f105cbc11</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

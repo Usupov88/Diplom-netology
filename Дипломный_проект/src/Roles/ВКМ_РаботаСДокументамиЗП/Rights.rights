@@ -3803,7 +3803,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.Вкм_ИдентификаторГруппыОповещения</name>
+		<name>Constant.ВКМ_ИдентификаторГруппыОповещения</name>
 		<right>
 			<name>Read</name>
 			<value>false</value>
@@ -11960,7 +11960,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.Вкм_ТокенУправленияТелеграмБотом</name>
+		<name>Constant.ВКМ_ТокенУправленияТелеграмБотом</name>
 		<right>
 			<name>Read</name>
 			<value>false</value>

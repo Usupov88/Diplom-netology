@@ -42,6 +42,8 @@
       <code xsi:type="core:StringValue">
         <value>1</value>
       </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</base>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>

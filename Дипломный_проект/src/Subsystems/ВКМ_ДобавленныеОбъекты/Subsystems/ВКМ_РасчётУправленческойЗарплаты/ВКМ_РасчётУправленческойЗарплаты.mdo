@@ -13,7 +13,7 @@
   <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
   <content>CommonPicture.ФинансовыйРасчёт</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
-  <content>Report.ВКМ_РасчётыССотрудниками</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
   <content>Document.ВКМ_НачисленияЗарплаты</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>

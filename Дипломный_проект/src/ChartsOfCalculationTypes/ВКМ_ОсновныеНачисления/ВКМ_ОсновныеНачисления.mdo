@@ -43,6 +43,7 @@
         <value>1</value>
       </code>
       <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</displaced>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
     </items>
     <items id="c5d5b45b-3dbb-4367-9a7c-a96869aa0e33">
       <name>Отпуск</name>
@@ -50,6 +51,10 @@
       <code xsi:type="core:StringValue">
         <value>2</value>
       </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</base>
+      <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</leading>
+      <leading>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.Премия</leading>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>

@@ -634,9 +634,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>1/0:f96550a8-cfee-42a0-a413-dac198d2ef0d</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
           <name>ВКМ_УдержанияНомерСтроки</name>
@@ -646,9 +643,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>1/0:f96550a8-cfee-42a0-a413-dac198d2ef0d/-2</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ВКМ_УдержанияНомерСтрокиРасширеннаяПодсказка</name>
             <id>53</id>
@@ -692,9 +686,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>1/0:f96550a8-cfee-42a0-a413-dac198d2ef0d/0:d5f8c2f4-2629-448d-90c1-da36ad90db67</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ВКМ_УдержанияСотрудникРасширеннаяПодсказка</name>
             <id>56</id>
@@ -742,9 +733,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>1/0:f96550a8-cfee-42a0-a413-dac198d2ef0d/0:2568490d-a65c-43ea-ab1e-f43d406a5a0c</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ВКМ_УдержанияВидРасчетаРасширеннаяПодсказка</name>
             <id>68</id>
@@ -792,9 +780,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>1/0:f96550a8-cfee-42a0-a413-dac198d2ef0d/0:7397f98f-6e25-4970-9e9b-98886d22acd2</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ВКМ_УдержанияСуммаРасширеннаяПодсказка</name>
             <id>59</id>

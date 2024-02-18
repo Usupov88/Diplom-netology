@@ -2393,7 +2393,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.ВКМ_РасчётыССотрудниками</name>
+		<name>Report.ВКМ_РасчетыССотрудниками</name>
 		<right>
 			<name>Use</name>
 			<value>false</value>

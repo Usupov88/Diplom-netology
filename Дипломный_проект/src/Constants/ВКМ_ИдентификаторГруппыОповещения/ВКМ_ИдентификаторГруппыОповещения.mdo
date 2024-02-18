@@ -5,10 +5,10 @@
     <valueManagerType typeId="87d864ae-4015-42ef-8b8c-a67ceb645fe8" valueTypeId="56d3d60f-8831-42de-aed2-b4952434ddcb"/>
     <valueKeyType typeId="d7229828-3e0c-47f6-8517-87de5b667b1f" valueTypeId="6c7ff125-de9a-4ea3-a9f4-2f9a31f31f90"/>
   </producedTypes>
-  <name>Вкм_ИдентификаторГруппыОповещения</name>
+  <name>ВКМ_ИдентификаторГруппыОповещения</name>
   <synonym>
     <key>ru</key>
-    <value>вкм_ID группы</value>
+    <value>ID группы</value>
   </synonym>
   <type>
     <types>String</types>

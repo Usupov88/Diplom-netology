@@ -15,6 +15,7 @@
     <value>Дополнительные начисления</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>CalculationRegister.ВКМ_ДополнительныеНачисления.Form.ФормаСписка</defaultListForm>
   <periodicity>Month</periodicity>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</chartOfCalculationTypes>
   <standardAttributes>
@@ -142,4 +143,13 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>
+  <forms uuid="b137cfb2-6d7b-4b32-8020-a8c70bfb1ed9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:CalculationRegister>

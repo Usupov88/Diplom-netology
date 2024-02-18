@@ -15,7 +15,9 @@
     <value>Удержания</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>CalculationRegister.ВКМ_Удержания.Form.ФормаСписка</defaultListForm>
   <periodicity>Month</periodicity>
+  <basePeriod>true</basePeriod>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartOfCalculationTypes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -142,4 +144,13 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>
+  <forms uuid="9f412e90-cc90-442c-b930-441f55de3820">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:CalculationRegister>

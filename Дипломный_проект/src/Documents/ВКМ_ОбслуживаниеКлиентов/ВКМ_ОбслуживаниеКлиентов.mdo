@@ -62,7 +62,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>вкм_Обслуживание клиента</value>
+    <value>Обслуживание клиента</value>
   </objectPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>

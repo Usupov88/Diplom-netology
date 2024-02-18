@@ -11,8 +11,8 @@
     <picture>CommonPicture.ВариантыОтчетовДоступныеВсемПользователям</picture>
   </picture>
   <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
-  <content>Constant.Вкм_ТокенУправленияТелеграмБотом</content>
-  <content>Constant.Вкм_ИдентификаторГруппыОповещения</content>
+  <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыОповещения</content>
   <content>Document.РеализацияТоваровУслуг</content>
   <content>AccumulationRegister.ОбработкаЗаказов</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>

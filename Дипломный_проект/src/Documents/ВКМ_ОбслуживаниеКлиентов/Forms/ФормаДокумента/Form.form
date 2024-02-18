@@ -305,9 +305,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>1/0:2cc4349d-22df-4050-bcca-0b93e3dba9f0</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ВКМ_ОрганизацияРасширеннаяПодсказка</name>
           <id>71</id>
